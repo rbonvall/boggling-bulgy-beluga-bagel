@@ -1,0 +1,9 @@
+#!/bin/bash
+
+BBBB="$(dirname $(readlink -f $0))"
+
+main () {
+  echo $BBBB
+}
+
+main "$@"
